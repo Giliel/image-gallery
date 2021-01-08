@@ -1,0 +1,62 @@
+* {
+  font-family: Merriweather;
+}
+
+.gallery {
+  background: cornflowerblue;
+  width: 1600px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+}
+
+.mainImageContainer {
+  background:midnightblue;
+  width: 1280px;
+}
+
+.arrowBox {
+  display: flex;
+  width: 100px;
+  align-self: center;
+  justify-content: center;
+}
+
+.arrow {
+
+  width: 20px;
+align-items: center;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.mainImageBox {
+  background:mediumorchid;
+  width: 1080px;
+  height: 608px;
+}
+
+.mainImage {
+  width: 1080px;
+  height: 608px;
+  object-fit: contain;
+}
+
+.thumbnail {
+  width: 200px;
+  display: block;
+}
+
+.thumbnailImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
