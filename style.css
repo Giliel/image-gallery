@@ -2,15 +2,20 @@
   font-family: Merriweather;
 }
 
+body {
+  background-color: slateblue;
+  margin: 0;
+
+}
+
 .gallery {
-  background: cornflowerblue;
-  width: 1600px;
-  height: 800px;
+  align-items: center;
+  background: lightsteelblue;
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: center;
-  align-items: center;
-}
+  }
 
 div {
   display: flex;
@@ -18,20 +23,22 @@ div {
 
 .mainImageContainer {
   background:midnightblue;
-  width: 1280px;
+  justify-content: center;
+  height: 500px;
+  margin-top: 90px;
+  width: 1180px;
 }
 
 .arrowBox {
-  display: flex;
-  width: 100px;
   align-self: center;
+  display: flex;
   justify-content: center;
+  width: 120px;
 }
 
 .arrow {
-
+  align-items: center;
   width: 20px;
-align-items: center;
 }
 
 .flip {
@@ -40,23 +47,29 @@ align-items: center;
 
 .mainImageBox {
   background:mediumorchid;
-  width: 1080px;
-  height: 608px;
+  height: 500px;
+  width: 1920px;
+
 }
 
 .mainImage {
-  width: 1080px;
-  height: 608px;
-  object-fit: contain;
+  height: 100%;
+  object-fit: fill;
+  width: 100%;
 }
 
 .thumbnail {
-  width: 200px;
+  border: 4px solid white;
+  border-radius: 4px;
+  box-shadow: 0px 12px 5px -12px black;
   display: block;
-}
+  height: 64px;
+  margin-top: 16px;
+  width: 64px;
+ }
 
 .thumbnailImage {
-  width: 100px;
-  height: 100px;
+  height: 100%;
   object-fit: cover;
+  width: 100%;
 }
